@@ -1,4 +1,144 @@
 *{
-    background-color: white;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+
+.nav-menu{
+    
+}
+.nav-menu > ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.nav-menu > ul > li{
+    list-style: none;
+    width: 90px;
+    margin-top: 10px;
+}
+.nav-menu > ul > li > a{
+    text-decoration: none;
+   
+    font-size: 22px;
+}
+.dots-pic{
+    height: 30px;
+    width: 30px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.gmail-pic{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+
+/* google home page hero area/main area code start here */
+
+
+#google-hero-area{
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.google-logo{
+    text-align: center;
+}
+.google-logo > img{
+    width: 500px;
+
+}
+
+
+.search-bar-parent{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 5px 0;
+    background-color:white;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.search-icon{
+    
+}
+.search-icon > i{
+    font-size: 30px;
+    color: black;
+    margin-left: 22px;
+    
+}
+
+.mic-cam-logo{
+    display: flex;
+    align-items: center;
+    margin-right: 22px;
+}
+.mic-cam-logo > i{
+    font-size: 30px;
+    margin-top: 1px;
+    color: black;
+}
+.microfon{
+    width: 50px;
+}
+
+
+
+.social-icon-area-parent{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+}
+.social-icon{
+    text-align: center;
+    padding: 10px 0;
+}
+.social-icon > i{
+    font-size: 30px;
+    
+}
+.social-icon > h3{
+    
+}
+
+.social-icon:hover{
+    color: red;
+}
+
+
+
+/* button code  */
+
+.button{
+     width: 325px;
+
+     display: flex;
+     justify-content: space-between;
+     margin: auto;
+     margin-top: 45px;
+}
+
+.single-button{
+    
+}
+.single-button > button{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+    cursor: pointer;
+    background-color: rgb(73, 73, 73);
 }
