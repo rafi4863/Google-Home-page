@@ -101,22 +101,69 @@
     justify-content: space-between;
     margin: auto;
     margin-top: 20px;
-}
-.social-icon{
     text-align: center;
-    padding: 10px 0;
-}
-.social-icon > i{
-    font-size: 30px;
-    
-}
-.social-icon > h3{
     
 }
 
-.social-icon:hover{
-    color: red;
+.youtube-icon i{
+    font-size: 30px;
+    transition: 0.5s;
 }
+.youtube-icon i:hover{
+    color:  #FF0000;
+    cursor: pointer;
+}
+
+
+.facebook-icon i{
+    font-size: 30px;
+    transition: 0.5s;
+}
+.facebook-icon i:hover{
+    color:  #1877F2;
+    cursor: pointer;
+}
+
+
+.massenger-icon i{
+    font-size: 30px;
+    transition: 0.5s;
+}
+.massenger-icon i:hover{
+    color:  rgb(22, 138, 255);
+    cursor: pointer;
+}
+
+
+.twitter-icon i{
+    font-size: 30px;
+    transition: 0.5s;
+}
+.twitter-icon i:hover{
+    color:  #1DA1F2;
+    cursor: pointer;
+}
+
+
+.linkedin-icon i{
+    font-size: 30px;
+    transition: 0.5s;
+}
+.linkedin-icon i:hover{
+    color:  #0077B5;
+    cursor: pointer;
+}
+
+
+.tiktok-icon i{
+    font-size: 30px;
+    transition: 0.5s;
+}
+.tiktok-icon i:hover{
+    color: #FF0000;
+    cursor: pointer;
+}
+
 
 
 
